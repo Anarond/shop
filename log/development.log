@@ -5189,3 +5189,61 @@ Started GET "/assets/theros.jpg" for 127.0.0.1 at 2013-10-28 17:02:49 +0400
 
 
 Started GET "/assets/rtr.jpg" for 127.0.0.1 at 2013-10-28 17:02:49 +0400
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.5ms)[0m  SELECT "products".* FROM "products" ORDER BY "products".title ASC
+  Rendered store/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/maze.jpg" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/m13.jpg" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/gate.jpg" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/theros.jpg" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/m14.jpg" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
+
+
+Started GET "/assets/rtr.jpg" for 127.0.0.1 at 2013-10-28 17:06:33 +0400
