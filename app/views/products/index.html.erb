@@ -10,7 +10,8 @@
 <td class="list_description">
 	<dl>
 		<dt><%= product.title%></dt>
-		<dd><%= strip_tags(product.description) %></dd>
+		<dd><%= truncate(strip_tags(product.description),
+		leght: 80) %></dd>
 	</dl>
 </td>
 
